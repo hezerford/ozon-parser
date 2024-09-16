@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ozon parser"
+version = "0.1.0"
+description = "Parsing data from ozon"
+authors = ["IvanB <baklanovivan25@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bs4 = "^0.0.2"
+undetected-chromedriver = "^3.5.5"
+lxml = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
